@@ -1,4 +1,11 @@
 $(document).ready(function() {
-  let links = document.getElementsByClassName("link");
-  console.log(links);
+  $(".btn-nav").on("click", function() {
+    $(".navigation").slideToggle("normal", function() {
+      if ($(".navigation").is(":visible")) {
+        $(".btn-nav").text("Hide Navigation");
+      } else {
+        $(".btn-nav").text("Show Navigation");
+      }
+    });
+  });
 });

@@ -51,8 +51,17 @@ h2 {
   background: #e61b10;
 }
 
+/* For Toggling of menu in phones */
+nav {
+  padding-bottom: 1rem;
+  display: none;
+}
 nav ul {
+  width: 90%;
+  margin-left: 5%;
   padding: 1rem 0;
+  padding: 1rem 0;
+  border: solid 1px orange;
 }
 
 nav ul li {
@@ -85,6 +94,32 @@ nav ul li.active {
   background: rgb(167, 21, 21);
 }
 
+/* generic button styling */
+.btn {
+  border: none;
+  outline: none;
+  padding: 0.5rem 1rem;
+  color: rgba(255, 255, 255, 0.7);
+  background: rgba(252, 178, 40, 0.877);
+}
+
+.btn-nav {
+  width: 90%;
+  margin: 1rem 5% 1rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background-color 0.5s linear;
+  -webkit-transition: background-color 0.5s linear;
+  -moz-transition: background-color 0.5s linear;
+  -ms-transition: background-color 0.5s linear;
+  -o-transition: background-color 0.2s linear;
+}
+
+.btn-nav:hover {
+  background-color: orangered;
+}
 /* MAIN CONTENT */
 #contentWrapper {
   background: rgb(214, 204, 204);
