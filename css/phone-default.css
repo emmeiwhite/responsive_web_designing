@@ -3,10 +3,10 @@
 
 html {
   -webkit-text-size-adjust: none;
+  font-size: 10px;
 }
 
 body {
-  font-size: 16px;
   font-family: "Open Sans", sans-serif;
   font-weight: 300; /* also loaded 600 to make the font bold*/
 }
@@ -19,6 +19,15 @@ body {
 }
 
 /* Starting generic style */
+#headerWrapper {
+  background: rgb(56, 51, 51);
+}
 h1 {
   color: red;
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  color: rgb(235, 213, 213);
 }
