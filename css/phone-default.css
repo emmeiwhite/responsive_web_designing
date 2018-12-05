@@ -1,0 +1,10 @@
+/* Prevents iPhone from resizing in landscape mode : THE TEXT WAS CHANGING IT"S SIZE- growing */
+
+html {
+  -webkit-text-size-adjust: none;
+}
+
+/* Starting generic style */
+h1 {
+  color: red;
+}

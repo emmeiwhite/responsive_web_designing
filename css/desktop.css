@@ -1,0 +1,7 @@
+/* Media Queries in action for desktop sized devices */
+
+@media only screen and (min-width: 961px) {
+  h1 {
+    color: orange;
+  }
+}

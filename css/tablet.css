@@ -1,0 +1,7 @@
+/* Media Queries in action for tablet sized devices */
+
+@media only screen and (min-width: 641px) {
+  h1 {
+    color: yellowgreen;
+  }
+}
