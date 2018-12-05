@@ -1,7 +1,35 @@
 /* Media Queries in action for tablet sized devices */
 
 @media only screen and (min-width: 641px) {
-  h1 {
-    color: yellowgreen;
+  #headerWrapper {
+    text-align: left;
+    padding: 1.3rem 0.6rem;
+  }
+
+  #headerWrapper h1 {
+    font-size: 4.5rem;
+    text-transform: capitalize;
+  }
+  #headerWrapper h2 {
+    padding-left: 0.35rem;
+    font-size: 1.6rem;
+  }
+  nav ul {
+    margin: 0;
+    padding: 0;
+  }
+
+  nav ul li {
+    width: auto;
+    margin: 0;
+  }
+  nav ul li a {
+    padding: 0.6rem 1.2rem;
+    font-weight: 300;
+  }
+
+  main p {
+    column-count: 2;
+    text-align: justify;
   }
 }
