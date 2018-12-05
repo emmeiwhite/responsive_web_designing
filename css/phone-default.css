@@ -9,6 +9,7 @@ html {
 body {
   font-family: "Open Sans", sans-serif;
   font-weight: 300; /* also loaded 600 to make the font bold*/
+  font-size: 1.6rem;
 }
 
 /* --------- Apply a natural box layout model to all elements --------- */
@@ -19,15 +20,54 @@ body {
 }
 
 /* Starting generic style */
-#headerWrapper {
-  background: rgb(56, 51, 51);
-}
+
 h1 {
   color: red;
   font-size: 4rem;
 }
 
 h2 {
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   color: rgb(235, 213, 213);
+}
+
+/* HEADER STUFF */
+#headerWrapper {
+  background: rgb(56, 51, 51);
+  padding: 0.5rem;
+}
+
+#headerWrapper h1 {
+  margin: 0.8rem 0;
+}
+
+/* NAVIGATION STUFF */
+#navWrapper {
+  background: #e61b10;
+}
+
+nav ul {
+  padding:1rem 0;
+}
+
+nav ul li {
+  width: 46%;
+  background: rgb(185, 15, 15);
+  padding: 0.5rem 0;
+  text-align: center;
+  margin: 0.2rem 0;
+  float: left;
+  margin:0.2% 2%;
+}
+
+nav ul li a {
+}
+
+/* clearfix hack */
+
+.clearfix::before,
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
 }
