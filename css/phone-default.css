@@ -1,7 +1,14 @@
+/* font-family: 'Open Sans', sans-serif; */
 /* Prevents iPhone from resizing in landscape mode : THE TEXT WAS CHANGING IT"S SIZE- growing */
 
 html {
   -webkit-text-size-adjust: none;
+}
+
+body {
+  font-size: 16px;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300; /* also loaded 600 to make the font bold*/
 }
 
 /* --------- Apply a natural box layout model to all elements --------- */
