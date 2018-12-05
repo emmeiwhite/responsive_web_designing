@@ -4,6 +4,13 @@ html {
   -webkit-text-size-adjust: none;
 }
 
+/* --------- Apply a natural box layout model to all elements --------- */
+
+* {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+}
+
 /* Starting generic style */
 h1 {
   color: red;
