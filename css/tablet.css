@@ -14,7 +14,13 @@
     padding-left: 0.35rem;
     font-size: 1.6rem;
   }
+
+  .btn-nav {
+    display: none;
+  }
+
   nav ul {
+    border: none;
     margin: 0;
     padding: 0;
   }
@@ -26,6 +32,11 @@
   nav ul li a {
     padding: 0.6rem 1.2rem;
     font-weight: 300;
+  }
+
+  nav {
+    padding: 0;
+    display: block !important;
   }
 
   main p {
