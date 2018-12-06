@@ -54,7 +54,7 @@ h2 {
 /* For Toggling of menu in phones */
 nav {
   padding-bottom: 1rem;
-  display: none;
+  /* display: none; */
 }
 
 nav ul {
